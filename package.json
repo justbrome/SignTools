@@ -1,11 +1,22 @@
 {
+  "name": "SignTools",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "^13.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
   "devDependencies": {
     "git-format-staged": "^3.0.0",
     "husky": "^7.0.4",
     "prettier": "^2.6.2"
-  },
-  "scripts": {
-    "prepare": "husky install"
   },
   "prettier": {
     "overrides": [
